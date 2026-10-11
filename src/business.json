@@ -1,0 +1,44 @@
+{
+  "slug": "vrn-schwarzbrot",
+  "name": "Schwarzbrot",
+  "city": "Воронеж",
+  "category": "Пекарня",
+  "address": "Воронеж, ул. Загоровского, 1",
+  "phone": "+7 (905) 053-26-10",
+  "hours": "Пн 09:00–22:00; Вт 09:00–22:00; Ср 09:00–22:00; Чт 09:00–22:00; Пт 09:00–22:00; Сб 09:00–22:00; Вс 09:00–22:00",
+  "map": "https://yandex.ru/maps/org/schwarzbrot/3630845232/",
+  "orgId": "3630845232",
+  "rating": 4.8,
+  "ratingCount": 385,
+  "reviewCount": 215,
+  "reviews": [
+    {
+      "text": "После работы самое то чтобы расслабиться. И девочки классные",
+      "name": "Мария Вишина",
+      "rating": 5,
+      "url": "https://yandex.ru/maps/org/schwarzbrot/3630845232/reviews/?reviewId=7eAmwiBK28_0opKgybOApbE1JmAS3Nj9",
+      "date": "2026-08-29T16:00:00.441Z"
+    }
+  ],
+  "socials": [
+    {
+      "label": "whatsapp",
+      "url": "https://wa.me/79050532610"
+    },
+    {
+      "label": "vkontakte",
+      "url": "https://vk.ru/schwarzbrot_vrn"
+    }
+  ],
+  "headline": "Schwarzbrot",
+  "tagline": "Хлеб, выпечка и кофе на Загоровского.",
+  "services": [
+    "Хлеб",
+    "Выпечка",
+    "Кофе с собой"
+  ],
+  "allPhones": [
+    "+7 (905) 053-26-10",
+    "+7 (903) 651-73-27"
+  ]
+}

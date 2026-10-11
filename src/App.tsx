@@ -1,0 +1,5 @@
+import {business as raw,Call,HeroImage,Quote,Reveal,ContactMap,Footer} from './components';
+import full from './business.json';
+const b={...raw,tagline:full.tagline};
+function ServiceLines(){return <ul className="service-lines">{full.services.map(s=><li key={s}>{s}</li>)}</ul>}
+export default function App(){return <div className="wrap"><header><a className="brand" href="#top">{b.name}</a><div className="header-right"><nav aria-label="Навигация"><a href="#reviews">Отзывы</a><a href="#contact">Адрес и часы</a></nav><Call>Позвонить</Call></div></header><main id="top"><section className="hero hero-bread"><div className="bread-title"><h1>Schwarzbrot</h1><div className="hero-copy"><p>{b.tagline}</p><Call>Позвонить в пекарню</Call></div></div><HeroImage/></section><div id="reviews"><section className="bread-line"><h2>Хлеб. <br/>Выпечка. <br/>Кофе.</h2><div><p>Зайдите по дороге или выберите выпечку с собой. Наличие, состав и варианты напитков уточняйте у сотрудников.</p><ServiceLines/></div></section><Reveal><Quote/></Reveal></div><ContactMap/></main><Footer/></div>}
